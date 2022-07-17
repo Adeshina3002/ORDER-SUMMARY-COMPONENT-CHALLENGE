@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Red Hat Display', sans-serif;
+  /* font-weight: 500, 700, 900; */
+  max-width: 100%;
+  /* width: 1440px; */
+  background-color: hsl(225, 100%, 94%);
+  /* color: hsl(223, 47%, 23%); */
+}
+
+p {
+  font-size: 16px;
+  color: hsl(225, 100%, 98%);
+  /* font-weight: 500; */
+}
+
+#attribution {
+   font-size: 11px; 
+   text-align: center;
+   background-image: url(./images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+  align-items: center;
+  /* font-weight: 500; */
+}
+
+/* .all-content {
+  
+} */
+
+.image-cover {
+  padding-top: 40px;
+}
+
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 26%;
+}
+
+.content  {
+  padding-top: 40px;
+  background-color:  rgba(255, 255, 255);
+  box-shadow: 0px 10px 20px hsla(244, 36%, 75%, 0.919);
+  margin: -5px auto;
+  width: 26%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.content h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.content p {
+  font-size: 16px;
+  margin: 0px auto;
+  width: 90%;
+  color: black;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+} 
+
+.payment-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 2px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 16px;
+  margin: 0px auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: -10px;
+}
+
+.music-icon img {
+  width: 60%;
+}
+
+.payment-content h5 {
+  font-size: 18px;
+  margin-bottom: -100px;
+  font-weight: 700;
+}
+
+.payment-content p {
+  margin-top: 96px;
+  
+}
+
+.payment-plan-switch a {
+  color: hsl(245, 75%, 52%);
+  font-size: 18px;
+}
+
+.payment-gateway {
+  background-color: hsl(245, 75%, 52%);
+  margin: 40px auto;
+  border-radius: 20px;
+  width: 80%;
+  padding: 10px;
+  box-shadow: 5px 10px 20px hsla(244, 36%, 75%, 0.919);
+}
+
+.payment-gateway a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.payment-abort a {
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 3rem;
+  position: relative;
+  top: -2rem;
+}
+
+.attribution {
+  font-size: 18px;
+  width: 39%;
+  margin: 20px auto;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 480px) {
+
+  img {
+    margin: auto;
+    width: 90%;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .attribution {
+    text-align: center;
+    font-size: 18px;
+    width: 78%;
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  html, body {
+    height: 160vw;
+  }
+  img {
+    margin: auto;
+    width: 90%;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .content h3 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .content p {
+  font-size: 28px;
+  /* margin: 0px auto; */
+  width: 80%;
+  color: black;
+  line-height: 2.4rem;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.payment-plan {
+   display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  border-radius: 30px;
+  width: 90%;
+  margin: 0px auto;
+  /* padding-top: 60px; */
+}
+
+.music-icon img {
+  padding-left: 10px;
+  width: 90%;
+}
+
+.payment-content h5 {
+  font-size: 30px;
+  margin-bottom: -100px;
+  font-weight: 900;
+}
+
+.payment-content p {
+  /* padding-top: 96px; */
+}
+
+.payment-plan-switch a {
+  color: hsl(245, 75%, 52%);
+  font-size: 32px;
+  position: relative;
+  top: 2rem;
+}
+
+  .attribution {
+    text-align: center;
+    font-size: 25px;
+    width: 96%;
+    margin: 30px auto;
+    line-height: 2.2rem;
+  }
+}
